@@ -12,6 +12,9 @@ class Carrito():
     def avanzar(self):
         print("Run Run Ñeeeen")
 
+    def pito(self):
+         print("PIPIPI")
+
     def puerta(self):
         if self.puerta_cerrada==True:
             self.puerta_cerrada=False
@@ -38,7 +41,7 @@ class Carrito():
         print("El carro se detuvó")
 
     def opciones_carro(self):
-        opcion=int(input("\n1-Avanzar.\n2-Frenar.\n3-Puerta.\n4-Aire acondicionado.\n5-Cambiar marcha\n"))
+        opcion=int(input("\n1-Avanzar.\n2-Frenar.\n3-Puerta.\n4-Aire acondicionado.\n5-Cambiar marcha\n6-Pito\n"))
         if opcion==1:
                 self.avanzar()
         elif opcion==2:
@@ -49,7 +52,9 @@ class Carrito():
                 self.aire()
         elif opcion==5:
                 self.cambiar_marcha()
-         
+        elif opcion==6:
+             self.pito()
+
 toyota=Carrito(4,"verde","Toyota",5,"Grande",True)
 suzuki=Carrito(2,"Azul","Suzuki",4,"Mediano",False)
 
