@@ -1,0 +1,71 @@
+@startuml
+class Pony
+{
+    -str color_de_pelaje
+    -str color_de_cabello
+    -int estatura
+    -str tatuaje
+    -int velocidad_maxima
+    +caminar()
+    +hablar()
+    +correr()
+    +estudiar()
+    +saltar()
+    +get color_de_pelaje()
+    +get color_de_cabello()
+    +get estatura()
+    +get tatuaje()
+    +get velocidad_maxima()
+    +set color_de_pelaje()
+    +set color_de_cabello()
+    +set estatura()
+    +set tatuaje()
+    +set velocidad_maxima()
+}
+class Pegazo
+{
+    -str color
+    -str alas
+    -int estatura
+    -str tatuaje
+    -int velocidad_maxima
+    +caminar()
+    +hablar()
+    +correr()
+    +aterrizar()
+    +volar()
+    +get color()
+    +get alas()
+    +get estatura()
+    +get tatuaje()
+    +get velocidad_maxima()
+    +set color()
+    +set alas()
+    +set estatura()
+    +set tatuaje()
+    +set velocidad_maxima()
+}
+class Unicornio
+{
+    -str cuerno
+    -str color
+    -int estatura
+    -str tatuaje
+    -int velocidad_maxima
+    +caminar()
+    +hablar()
+    +correr()
+    +hechizo()
+    +volar()
+    +get cuerno()
+    +get color()
+    +get estatura()
+    +get tatuaje()
+    +get velocidad_maxima()
+    +set cuerno()
+    +set color()
+    +set estatura()
+    +set tatuaje()
+    +set velocidad_maxima()
+}
+@enduml
