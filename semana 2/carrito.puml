@@ -1,0 +1,19 @@
+@startuml
+class Carrito {
+    -puerta_cerrada: bool = True
+    -aire_encendido: bool = False
+    -puertas: int
+    -color: str
+    -marca: str
+    -pasajeros_max: int
+    -tamaño
+    -tiene_aire: bool
+    +avanzar(): void
+    +pito(): void
+    +puerta(): void
+    +aire(): void
+    +cambiar_marcha(): void
+    +freno(): void
+    +opciones_carro(): void
+}
+@enduml
