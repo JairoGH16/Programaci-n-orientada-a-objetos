@@ -1,0 +1,22 @@
+@startuml
+class Producto{
+-Int id
+-String nombre
+-String marca
+-String tipo
+-Int peso
+-Int precio
++agregar_al_carrito()
++leer_sobre_producto()
+}
+
+enum tipo{
+Lacteo
+CanastaBasica
+Vegetal
+Fruta
+Carne
+}
+
+tipo -> Producto
+@enduml

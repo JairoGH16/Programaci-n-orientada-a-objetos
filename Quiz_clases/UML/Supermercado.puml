@@ -1,0 +1,12 @@
+@startuml
+class Supermercado{
+-Int id
+-String nombre
+-String ubicacion
+-Int numero_telefono
+-Int pasillos
+-String tamaño
++abrir_supermercado()
++cerrar_supermercado()
+}
+@enduml

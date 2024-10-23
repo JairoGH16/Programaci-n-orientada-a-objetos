@@ -1,0 +1,11 @@
+@startuml
+class Empleado{
+-Int id
+-Int cedula
+-String nombre
+-String apellido
+-Int edad
++limpiar()
++ordenar()
+}
+@enduml

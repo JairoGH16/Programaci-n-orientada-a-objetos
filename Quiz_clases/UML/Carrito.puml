@@ -1,0 +1,10 @@
+@startuml
+class Carrito{
+-String color
+-String tamaño
+-Int ruedas
+-Int compartimientos
++empujar_carrito()
++girar_carrito()
+}
+@enduml
